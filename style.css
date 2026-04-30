@@ -9,17 +9,33 @@ body {
     background: radial-gradient(circle at 20% 30%, #0f5c7a, transparent 40%),
     radial-gradient(circle at 80% 20%, #1a2a6c, transparent 40%),
     linear-gradient(135deg, #0a0f2c, #140a3c);
+    background-attachment: fixed;
     color: white;
+    overflow-x: hidden;
 }
 
 .header {
-    padding: 20px 50px;
+    padding: 20px 0;
+    position: relative;
+    z-index: 100;
+
+
 }
 
 .container {
+
+
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .logo {
@@ -37,6 +53,7 @@ body {
     padding: 6px 12px;
     border-radius: 20px;
     transition: 0.3s;
+
 }
 
 .navbar a:hover,
@@ -54,8 +71,7 @@ body {
     position: relative;
     overflow: hidden;
 }
-/*Sy*/
-/* Big circle behind image */
+
 .hero::before {
     content: "";
     position: absolute;
@@ -89,7 +105,7 @@ body {
     top: 50px;
     left: 100px;
 }
-/*hd*/
+
 .hero-content {
     max-width: 1000px;
     padding-left: 100px;
@@ -257,7 +273,7 @@ body {
 }
 
 .section-title span {
-    color: #00d9ff; /* Cyan accent */
+    color: #00d9ff;
 }
 
 .exercise-grid {
@@ -307,7 +323,7 @@ body {
     font-weight: bold;
     font-size: 14px;
 }
-/*exe*/
+
 
 .gallery {
     text-align: center;
