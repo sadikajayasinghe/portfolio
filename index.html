@@ -9,47 +9,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="logo">Sadika</div>
-
-            <nav class="navbar">
-                <a href="#" class="active">HOME</a>
-                <a href="#">ABOUT</a>
-                <a href="#">SKILL</a>
-                <a href="#">PROJECT</a>
-                <a href="#">GALLERY</a>
-                <a href="#">CONTACT</a>
-            </nav>
+<header class="header">
+    <div class="container">
+        <div class="logo">Sadika</div>
+        <div class="menu-btn" id="menu-btn">
+            ☰
         </div>
-    </header>
 
-    <main class="hero">
+        <nav class="navbar" id="navbar">
+            <a href="#main" class="active">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skill">SKILL</a>
+            <a href="#project">PROJECT</a>
+            <a href="#gallery">GALLERY</a>
+            <a href="#contac">CONTACT</a>
+        </nav>
+    </div>
+</header>
+
+    <main id="main" class="hero">
         <div class="hero-content">
-            <h2>Hi,It’s Me</h2>
-            <h1>Sadika Jayasinghe,</h1>
+            <h1>Hi,It’s Me</h1>
+            <h2>Sadika Jayasinghe,</h2>
             <h3>And I'm a Software Engineer</h3>
             <p>
                 A passionate Software Engineering focused on building modern,
-                user-friendly, and efficient digital solutions.
-            </p>
+                user-friendly, and efficient digital solutions.</p>
         </div>
 
         <div class="hero-image">
             <img src="assets/my.png" alt="profile">
         </div>
 
-
-
     </main>
 
 
-    <section class="about">
+    <section id="about" class="about">
         <div class="top-bar">
-            <span>✦ UI/UX Design</span>
-            <span>✦ UI/UX Design</span>
-            <span>✦ UI/UX Design</span>
-            <span>✦ UI/UX Design</span>
+            <span> UI/UX Design</span>
+            <span> UI/UX Design</span>
+            <span> UI/UX Design</span>
+            <span> UI/UX Design</span>
+            <span> UI/UX Design</span>
         </div>
 
         <div class="about-container">
@@ -74,7 +75,7 @@
     </section>
 
 
-    <section class="skills">
+    <section id="skill" class="skills">
         <h2>SKILL</h2>
 
         <div class="skill-container">
@@ -86,7 +87,7 @@
         </div>
     </section>
 
-    <section class="projects">
+    <section id="project" class="projects">
         <h2>PROJECT</h2>
 
         <div class="project-container">
@@ -112,9 +113,12 @@
             </div>
 
         </div>
+        <div class="see-more">
+            <a href="project.html" class="see-more-btn">See More</a>
+        </div>
     </section>
 
-    <section class="exercise-section">
+    <section projrct="exercise" class="exercise-section">
         <h2 class="section-title">Exercise</h2>
 
         <div class="exercise-grid">
@@ -139,10 +143,13 @@
                 <a href="#" class="read-more">Read more</a>
             </div>
         </div>
+        <div class="see-more">
+            <a href="exercise.html" class="see-more-btn">See More</a>
+        </div>
     </section>
 
 
-    <section class="gallery">
+    <section id="gallery" class="gallery">
         <h2 class="gallery-wo">GALLERY</h2>
 
         <div class="gallery-container">
@@ -154,7 +161,7 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section id="contac" class="contact">
         <div class="contact-container">
             <div class="contact-info">
                 <h1>Contact </h1>
